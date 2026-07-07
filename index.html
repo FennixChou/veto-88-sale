@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>VETO 88節優惠活動｜7/10–8/9</title>
+<meta name="description" content="VETO 工具包 88節優惠活動，活動期間 7/10–8/9，全品項第一件8.5折、加購優惠項目第二件起7.8折。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%A0%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --red: #d1293d;
+    --orange: #ff7a3d;
+    --bg: #faf7f5;
+    --card-bg: #ffffff;
+    --text: #211c1c;
+    --text-sub: #6b6260;
+    --strike: #9c9491;
+    --border: #eee2df;
+    --shadow: 0 4px 14px rgba(0,0,0,0.08);
+    --img-bg: #f2ece9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --red: #ff5468;
+      --orange: #ff9152;
+      --bg: #171314;
+      --card-bg: #241f1f;
+      --text: #f5efed;
+      --text-sub: #b8adaa;
+      --strike: #7c7371;
+      --border: #362e2d;
+      --shadow: 0 4px 18px rgba(0,0,0,0.45);
+      --img-bg: #2c2624;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 560px; margin: 0 auto; padding: 0 16px 40px; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, var(--red), var(--orange));
+    color: #fff;
+    padding: 34px 20px 28px;
+    text-align: center;
+    border-radius: 0 0 26px 26px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  }
+  .hero .tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.22);
+    padding: 4px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  .hero h1 { font-size: 30px; margin: 6px 0; font-weight: 800; }
+  .hero .period { font-size: 21px; font-weight: 700; margin: 12px 0 2px; }
+  .hero .period .arrow { opacity: .85; margin: 0 8px; font-weight: 400; }
+  .hero .discount-line {
+    font-size: 17px;
+    margin-top: 14px;
+    font-weight: 700;
+    background: rgba(255,255,255,0.16);
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 12px;
+  }
+
+  /* Rules card */
+  .rules {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+    box-shadow: var(--shadow);
+    margin-bottom: 26px;
+  }
+  .rules h2 { font-size: 17px; margin: 0 0 12px; }
+  .rules ol { margin: 0; padding-left: 20px; }
+  .rules li { margin-bottom: 10px; font-size: 15px; }
+  .rules li b { color: var(--red); }
+  .rules .note {
+    font-size: 13px;
+    color: var(--text-sub);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+  }
+
+  /* Section title */
+  .section-title {
+    font-size: 19px;
+    font-weight: 800;
+    margin: 8px 4px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-title .bar { width: 5px; height: 20px; background: var(--red); border-radius: 3px; display: inline-block; }
+  .section-title .count { font-size: 13px; font-weight: 400; color: var(--text-sub); margin-left: 2px; }
+
+  /* Product cards */
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+    padding: 16px;
+    margin-bottom: 18px;
+  }
+  .card .imgs { display: flex; gap: 8px; margin-bottom: 14px; border-radius: 12px; overflow: hidden; }
+  .card .imgs img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    background: var(--img-bg);
+    object-fit: contain;
+    display: block;
+  }
+  .card .imgs.single img { max-height: 300px; }
+  .card .imgs.double img { max-height: 210px; width: 50%; }
+  .card .imgs.quad { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .card .imgs.quad img { max-height: 150px; }
+  .card .model { font-size: 22px; font-weight: 800; letter-spacing: 0.5px; }
+  .card .desc { font-size: 14px; color: var(--text-sub); margin: 3px 0 8px; }
+  .card .price-row { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-top: 6px; }
+  .card .list-price { font-size: 15px; color: var(--strike); text-decoration: line-through; }
+  .card .sale-label {
+    font-size: 12px;
+    background: var(--red);
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .card .sale-price { font-size: 24px; font-weight: 900; color: var(--red); }
+  .card .sale-price.small { font-size: 18px; }
+  .card .quote-note {
+    font-size: 13px;
+    color: var(--text-sub);
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    line-height: 1.5;
+  }
+
+  /* CTA */
+  .cta {
+    display: block;
+    text-align: center;
+    background: linear-gradient(135deg, var(--red), var(--orange));
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 14px;
+    margin: 28px 4px 8px;
+    box-shadow: var(--shadow);
+  }
+  .cta .sub { display: block; font-weight: 400; font-size: 13px; opacity: .9; margin-top: 4px; }
+
+  .footer-note {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-sub);
+    margin-top: 18px;
+    padding: 0 12px;
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <span class="tag">VETO PRO PAC</span>
+  <h1>88節優惠活動</h1>
+  <div class="period">7/10 <span class="arrow">→</span> 8/9</div>
+  <div class="discount-line">第一件 8.5折｜加購第二件起 7.8折</div>
+</div>
+
+<div class="wrap">
+
+  <div class="rules">
+    <h2>📌 活動規則</h2>
+    <ol>
+      <li>活動期間全品項<b>第一件 8.5 折</b></li>
+      <li>第二件起，限「加購優惠項目」<b>7.8 折</b>，數量有限，敬請把握！</li>
+      <li>單獨購買加購優惠項目，採第一件 8.5 折計價</li>
+    </ol>
+    <div class="note">以下商品卡標示之優惠價，為 DM 標示之「加購優惠 7.8 折」價；單獨購買第一件請依 8.5 折計算。</div>
+  </div>
+
+  <div class="section-title"><span class="bar"></span>加購優惠項目<span class="count">共 15 項</span></div>
+
+  <!-- 1. TECH-XXL -->
+  <div class="card">
+    <div class="imgs single"><img src="images/01-tech-xxl-1.jpg" alt="TECH-XXL 工具包" loading="lazy"></div>
+    <div class="model">TECH-XXL</div>
+    <div class="price-row"><span class="list-price">牌價 $14,200</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$11,076</span></div>
+  </div>
+
+  <!-- 2. XLT -->
+  <div class="card">
+    <div class="imgs single"><img src="images/02-xlt-1.jpg" alt="XLT 工具包" loading="lazy"></div>
+    <div class="model">XLT</div>
+    <div class="price-row"><span class="list-price">牌價 $13,800</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$10,764</span></div>
+  </div>
+
+  <!-- 3. MB2B -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/03-mb2b-1.jpg" alt="MB2B 外觀" loading="lazy">
+      <img src="images/03-mb2b-2.jpg" alt="MB2B 開展內裝" loading="lazy">
+    </div>
+    <div class="model">MB2B</div>
+    <div class="price-row"><span class="list-price">牌價 $4,200</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$3,276</span></div>
+  </div>
+
+  <!-- 4. MB3B -->
+  <div class="card">
+    <div class="imgs single"><img src="images/04-mb3b-1.jpg" alt="MB3B 工具包" loading="lazy"></div>
+    <div class="model">MB3B</div>
+    <div class="price-row"><span class="list-price">牌價 $7,300</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$5,694</span></div>
+  </div>
+
+  <!-- 5. SC45 -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/05-sc45-1.jpg" alt="SC45 外觀" loading="lazy">
+      <img src="images/05-sc45-2.jpg" alt="SC45 開展內裝" loading="lazy">
+    </div>
+    <div class="model">SC45</div>
+    <div class="price-row"><span class="list-price">牌價 $4,100</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$3,198</span></div>
+  </div>
+
+  <!-- 6. TP3B -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/06-tp3b-1.jpg" alt="TP3B 工具包" loading="lazy">
+      <img src="images/06-tp3b-2.jpg" alt="TP3B 實際配戴" loading="lazy">
+    </div>
+    <div class="model">TP3B</div>
+    <div class="price-row"><span class="list-price">牌價 $3,500</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$2,730</span></div>
+  </div>
+
+  <!-- 7. TP5B -->
+  <div class="card">
+    <div class="imgs single"><img src="images/07-tp5b-1.jpg" alt="TP5B 工具包" loading="lazy"></div>
+    <div class="model">TP5B</div>
+    <div class="price-row"><span class="list-price">牌價 $4,400</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$3,432</span></div>
+  </div>
+
+  <!-- 8. SP-MC -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/08-spmc-1.jpg" alt="SP-MC 外觀" loading="lazy">
+      <img src="images/08-spmc-2.jpg" alt="SP-MC 開展內裝" loading="lazy">
+    </div>
+    <div class="model">SP-MC</div>
+    <div class="price-row"><span class="list-price">牌價 $7,500</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$5,850</span></div>
+  </div>
+
+  <!-- 9. TP-LC -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/09-tplc-1.jpg" alt="TP-LC 外觀" loading="lazy">
+      <img src="images/09-tplc-2.jpg" alt="TP-LC 開展內裝" loading="lazy">
+    </div>
+    <div class="model">TP-LC</div>
+    <div class="price-row"><span class="list-price">牌價 $6,800</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$5,304</span></div>
+  </div>
+
+  <!-- 10. DP3 -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/10-dp3-1.jpg" alt="DP3 配戴展示 1" loading="lazy">
+      <img src="images/10-dp3-2.jpg" alt="DP3 配戴展示 2" loading="lazy">
+    </div>
+    <div class="model">DP3</div>
+    <div class="price-row"><span class="list-price">牌價 $4,200</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$3,276</span></div>
+  </div>
+
+  <!-- 11. CB-LD -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/11-cbld-1.jpg" alt="CB-LD 外觀" loading="lazy">
+      <img src="images/11-cbld-2.jpg" alt="CB-LD 開展內裝" loading="lazy">
+    </div>
+    <div class="model">CB-LD</div>
+    <div class="price-row"><span class="list-price">牌價 $7,500</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$5,850</span></div>
+  </div>
+
+  <!-- 12. MP1 -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/12-mp1-1.jpg" alt="MP1 實際使用 1" loading="lazy">
+      <img src="images/12-mp1-2.jpg" alt="MP1 實際使用 2" loading="lazy">
+    </div>
+    <div class="model">MP1</div>
+    <div class="price-row"><span class="list-price">牌價 $3,480</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$2,714</span></div>
+  </div>
+
+  <!-- 13. MP2 -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/13-mp2-1.jpg" alt="MP2 外觀" loading="lazy">
+      <img src="images/13-mp2-2.jpg" alt="MP2 實際手持展示" loading="lazy">
+    </div>
+    <div class="model">MP2</div>
+    <div class="price-row"><span class="list-price">牌價 $3,860</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$3,010</span></div>
+  </div>
+
+  <!-- 14. BUILDERS BELT -->
+  <div class="card">
+    <div class="imgs double">
+      <img src="images/14-buildersbelt-1.jpg" alt="BUILDERS BELT 工具腰帶整套" loading="lazy">
+      <img src="images/14-buildersbelt-2.jpg" alt="BUILDERS BELT 實際配戴" loading="lazy">
+    </div>
+    <div class="model">BUILDERS BELT</div>
+    <div class="desc">工具腰帶整套，包含減壓背帶</div>
+    <div class="price-row"><span class="list-price">牌價 $14,800</span></div>
+    <div class="price-row"><span class="sale-label">加購 7.8折</span><span class="sale-price">$11,544</span></div>
+  </div>
+
+  <!-- 15. 內襯 (reference only, no fixed list price) -->
+  <div class="card">
+    <div class="imgs quad">
+      <img src="images/15-lining-1.jpg" alt="內襯款式 1" loading="lazy">
+      <img src="images/15-lining-2.jpg" alt="內襯款式 2" loading="lazy">
+      <img src="images/15-lining-3.jpg" alt="內襯款式 3" loading="lazy">
+      <img src="images/15-lining-4.jpg" alt="內襯款式 4" loading="lazy">
+    </div>
+    <div class="model">所有款式內襯</div>
+    <div class="desc">限現貨</div>
+    <div class="price-row"><span class="sale-label">7.8折</span><span class="sale-price small">請詢問報價</span></div>
+    <div class="quote-note">此項目照片為參考用，幾乎所有 Blackout 工具包的電腦內襯及硬殼內襯都有，請參考報價單。</div>
+  </div>
+
+  <a class="cta" href="https://www.dropbox.com/scl/fi/s385conym3omemx8stko5/VPP_CATALOG_2026_WEB-v2.pdf?rlkey=d6v38wcysh8mbhrgt1vql2blr&st=sxaaww19&dl=0" target="_blank" rel="noopener">
+    查看 VETO 完整目錄 PDF
+    <span class="sub">VPP_CATALOG_2026_WEB-v2.pdf</span>
+  </a>
+
+  <div class="footer-note">活動內容以 VETO 原廠 DM 為準；圖片僅供參考，實際款式與現貨以到貨為準。</div>
+
+</div>
+</body>
+</html>
